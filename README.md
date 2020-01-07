@@ -1,0 +1,2 @@
+# Custom-Dictionary
+The HTML, Javascript files are bascially to be used to create an ionic app (say using something like Apache Cordova), but can also be used a website. The app functions like a custom dictionary, with it you can add words and their corresponding meanings which you seem fit, i.e. the meanings you find useful (since a word can have multiple, possibly unrelated, meanings). You can add words and search for their meanings from different sources (the main source being Investopedia at the moment) and add multiple meanings for the same word.
