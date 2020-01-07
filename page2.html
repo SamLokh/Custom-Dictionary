@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head><title>Adding word page</title>
+<script>
+</script>
+    <!--link rel="stylesheet" href="css/stockCalc.css" style="text/css"-->
+    <style> 
+        #myDiv{
+            
+        }
+    </style>
+</head>
+
+<body class="body" onload="once()">
+    
+<font size="5">
+    <!--<form id="f1"-->
+        <!--pre-->
+            
+                        <h1 id="h1" class="heading"><b>Adding your word : </b></h1>
+                        <br>
+                <!--p onload="once()"></p-->         
+    <!--button onclick="once()">button</button-->
+                Enter the word :
+                <input type="text" id="wname" placeholder="Word" autofocus><!--onfocusout="showsource()"-->
+                <br>
+    
+                <div id="myDiv">
+    <p id="hiddenp">Source : 
+    <input type="text" id="sctextbox">
+    </p>
+                </div>
+                <!--script>
+                
+                var i=0;
+                var j=0;
+                //document.getElementById("wname").addEventListener("onfocusout"showsource);
+                function getsource()
+                {
+                    var sc=prompt("Please enter the source for the meaning that you are about to enter, for e.g. investopedia, oxford dictionary, some link, etc.","You");
+                    sc=sc+" : \n";
+                    document.getElementById("sctextbox").value=sc;
+                }
+                
+                function showsource()
+                    {   
+                        if(i==0)
+                        {
+                            document.getElementById("hiddenp").style.visibility="visible";
+                            document.getElementById("sctextbox").style.visibility="visible";
+                        }
+                    }
+                
+                function once()
+                    {
+                        alert("Hello 2");
+                        if(j==0)
+                            {   alert("Hello 3");
+                                document.getElementById("hiddenp").style.visibility="hidden";
+                                document.getElementById("sctextbox").style.visibility="hidden";
+                                j=1;
+                            }
+                    }
+                </script-->
+            
+                
+                Enter its meaning : <br>
+                <textarea id="tarea" rows="10" cols="50"></textarea>
+                <br><br>
+                <button id="addanothermean" >Add another meaning</button>
+                <button id="simpleadd" >Simple add</button>
+				<button id="sbutton" >Star</button>
+    <br><br>
+                <button id="back2">Main Menu</button>
+    <br><br>
+                <input type="text" id="sbox2" placeholder="Search a word!">
+                <button id="sbut2">Search!</button>
+    <br>
+                <!--button id="back2">Back</button-->
+    <script src="js/2.js">
+    </script>
+          
+</font>
+</body>
+</html>
